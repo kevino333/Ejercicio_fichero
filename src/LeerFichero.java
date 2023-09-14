@@ -23,7 +23,6 @@ public class LeerFichero {
 			String word;
 			while((word = br.readLine())!=null) {
 				palabras = word.split(" ");
-				System.out.println("word " + word);
 				if(word.toLowerCase().contains("kaixo")) {
 					linea++;
 					System.out.println("Lerroa: " + linea + " " + word);
